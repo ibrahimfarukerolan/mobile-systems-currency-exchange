@@ -23,8 +23,8 @@ The backend service provides the business logic, API integration, validation, au
 
 The project is developed by a two-person team.
 
-Team member 1: [Name]
-Team member 2: [Name]
+Team member 1: Ibrahim Faruk Erolan 73761
+Team member 2: Kerem Safa Akcay 73760
 3. Technology Stack
 Mobile Application
 Android
