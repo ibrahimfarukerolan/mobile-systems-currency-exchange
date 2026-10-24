@@ -109,16 +109,4 @@ Use an Android emulator or test device, a running Spring Boot service, PostgreSQ
 
 For each scenario, capture: **scenario ID, steps, expected UI, observed UI, expected backend state, observed backend state, pass/fail**. For data-changing tests, inspect transaction IDs and database balances before and after execution.
 
-## 7. Lab 02 Review Checklist
 
-- [ ] Functional requirements cover all planned app features.
-- [ ] Non-functional requirements are measurable and testable.
-- [ ] Read-only operations are separated from server-authoritative writes.
-- [ ] Offline behavior is explicit: cached reads allowed, new writes blocked, no write queue.
-- [ ] Before/after submission loss, timeout, delayed response, retry, cached display, and reconnection are covered.
-- [ ] Competing writes and uncertain outcomes have expected server and UI states.
-- [ ] Each scenario has a reproducible expected test result.
-
----
-
-*This document specifies planned behavior for Lab 02. Passing the tests requires implementation and evidence in later labs.*
